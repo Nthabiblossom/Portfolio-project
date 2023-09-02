@@ -16,10 +16,35 @@ h3 {
   color: #ffff;
   text-align: center;
 }
-p {
+.hero-paragraph {
   font-family: "Nunito", sans-serif;
   text-align: center;
   color: #ffff;
   font-size: 24px;
   font-weight: bold;
+}
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+  color: #272142;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 46px;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .hero-paragraph {
+    font-size: 20;
+  }
+}
+@media (max-width: 400px) {
+  .hero-paragraph {
+    font-size: 15px;
+  }
+  #bottom-p-hero {
+    line-height: 0.5px;
+  }
 }
