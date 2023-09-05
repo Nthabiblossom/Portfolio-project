@@ -13,35 +13,53 @@ h3 {
   font-family: "Nunito", sans-;
   font-weight: bold;
   font-size: 64px;
-  color: #ffff;
   text-align: center;
+  color: #ffff;
 }
-.hero-paragraph {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-  color: #ffff;
+h2 {
   font-size: 24px;
-  font-weight: bold;
 }
-p {
-  font-family: "Nunito", sans-serif;
+h3 {
+  text-align: left;
   font-size: 28px;
   color: #272142;
+}
+.about-recipe-heading {
+  color: #272142;
+  text-align: left;
+}
+.favourites {
+  text-align: center;
+}
+.about-heading {
+  color: #272142;
+  font-size: 72px;
+}
+.names {
+  color: #272142;
+  font-size: 64px;
+}
+p {
+  color: #272142;
+  font-size: 18px;
+}
+.follow {
+  font-weight: bold;
 }
 @media (max-width: 900px) {
   h1 {
     font-size: 46px;
   }
-  p {
+  h3 {
     font-size: 20px;
     text-align: center;
   }
-  .hero-paragraph {
+  h2 {
     font-size: 20;
   }
 }
 @media (max-width: 400px) {
-  .hero-paragraph {
+  h2 {
     font-size: 15px;
   }
   #bottom-p-hero {
