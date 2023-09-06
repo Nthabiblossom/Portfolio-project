@@ -46,7 +46,7 @@ p {
 .follow {
   font-weight: bold;
 }
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   h1 {
     font-size: 46px;
   }
@@ -56,6 +56,13 @@ p {
   }
   h2 {
     font-size: 20;
+  }
+  .about-pictures {
+    display: block;
+    margin: auto;
+  }
+  .about-paragraphs {
+    text-align: center;
   }
 }
 @media (max-width: 400px) {
