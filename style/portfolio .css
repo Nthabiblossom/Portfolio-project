@@ -27,6 +27,21 @@ h3 {
   font-size: 28px;
   color: #272142;
 }
+p {
+  color: #272142;
+  font-size: 18px;
+}
+footer {
+  background-color: #f9f7fe;
+  padding: 50px;
+}
+
+.copyright {
+  font-size: 16px;
+}
+.social-icons {
+  font-size: 16px;
+}
 .about-recipe-heading {
   color: #272142;
   text-align: left;
@@ -42,10 +57,7 @@ h3 {
   color: #272142;
   font-size: 64px;
 }
-p {
-  color: #272142;
-  font-size: 18px;
-}
+
 .follow {
   font-weight: bold;
 }
