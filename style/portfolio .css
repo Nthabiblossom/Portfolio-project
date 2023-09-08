@@ -83,7 +83,10 @@ footer .social-icons a {
 .email-link {
   color: #272142;
 }
-
+.sign-off {
+  font-size: 10px;
+  text-align: right;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 46px;
