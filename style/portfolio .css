@@ -1,3 +1,10 @@
+:root {
+  --font-color: #272142;
+  --secondary-font-color: #f65282;
+  --third-font-color: #67d5d2;
+
+  --brand-font: "Nunito", sans-;
+}
 .bg-image {
   width: 100%;
   height: 200px;
@@ -13,49 +20,70 @@ h3 {
   font-weight: bold;
   font-size: 64px;
   text-align: center;
-}
-h1 {
   color: #ffff;
 }
+
 h2 {
   font-size: 24px;
-  color: #ffff;
 }
 h3 {
   text-align: left;
   font-size: 28px;
-  color: #272142;
+  color: var(--font-color);
 }
 p {
-  color: #272142;
+  color: var(--font-color);
   font-size: 18px;
 }
 footer {
   background-color: #f9f7fe;
   padding: 38px 120px;
 }
-
+nav {
+  padding: 20px 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--font-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-font-color);
+}
 .copyright {
   font-size: 16px;
 }
-footer .social-icons a {
+.social-icons a {
   font-size: 16px;
   margin: 0 15px;
-  color: #272142;
+  color: var(--font-color);
 }
 .about-recipe-heading {
-  color: #272142;
+  color: var(--font-color);
   text-align: left;
 }
 .favourites {
   text-align: center;
 }
 .about-heading {
-  color: #272142;
+  color: var(--font-color);
   font-size: 72px;
 }
+.navigation {
+  margin: 24px 24px;
+}
 .names {
-  color: #272142;
+  color: var(--font-color);
   font-size: 64px;
 }
 
@@ -63,28 +91,29 @@ footer .social-icons a {
   font-weight: bold;
 }
 .line-deco {
-  color: #67d5d2;
+  color: var(--third-font-color);
   text-decoration: dashed;
 }
 .steps {
-  color: #f65282;
+  color: var(--secondary-font-color);
   font-family: "Nunito", sans-serif;
 }
 .directions {
   line-height: 2;
 }
 .contacts {
-  color: #662eed;
+  color: var(--secondary-font-color);
   font-weight: bold;
 }
+
 .contact-items {
   font-size: 24px;
 }
 .email-link {
-  color: #272142;
+  color: var(--font-color);
 }
 .sign-off {
-  font-size: 10px;
+  font-size: 13px;
   text-align: right;
 }
 @media (max-width: 960px) {
@@ -106,11 +135,16 @@ footer .social-icons a {
     text-align: center;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   h2 {
     font-size: 15px;
   }
   #bottom-p-hero {
     line-height: 0.5px;
+  }
+
+  li {
+    font-size: 15px;
+    margin-left: 10px;
   }
 }
